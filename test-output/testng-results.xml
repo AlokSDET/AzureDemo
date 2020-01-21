@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Azure" duration-ms="62" started-at="2020-01-21T05:41:30Z" finished-at="2020-01-21T05:41:30Z">
+    <groups>
+    </groups>
+    <test name="Azure pipeline" duration-ms="62" started-at="2020-01-21T05:41:30Z" finished-at="2020-01-21T05:41:30Z">
+      <class name="demoazure.Selenium">
+        <test-method status="PASS" signature="test1()[pri:0, instance:demoazure.Selenium@402f32ff]" name="test1" duration-ms="20" started-at="2020-01-21T05:41:30Z" finished-at="2020-01-21T05:41:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- demoazure.Selenium -->
+    </test> <!-- Azure pipeline -->
+  </suite> <!-- Azure -->
+</testng-results>

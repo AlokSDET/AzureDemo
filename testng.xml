@@ -1,0 +1,10 @@
+
+<suite name="Azure" verbose="10">
+
+	<test name="Azure pipeline"><!--@BeforeTest runs here just once -->
+		<classes>
+			<class name="demoazure.Selenium" />
+		</classes>
+	</test> <!--@AfterTest runs here just once -->
+
+</suite>
