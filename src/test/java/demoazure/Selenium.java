@@ -56,7 +56,12 @@ public class Selenium {
 
 		wait.until(ExpectedConditions.elementToBeClickable(searchButton));
 
-		searchButton.click();
+		try {
+			searchButton.click();
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+		
 
 	}
 
