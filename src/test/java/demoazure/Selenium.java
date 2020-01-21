@@ -46,7 +46,7 @@ public class Selenium {
 	@Test
 	public void test3() {
 		System.out.println("azure pipeline3");
-		Assert.assertTrue(driver.getTitle().contains("Google Search"));
+		System.out.println(driver.getCurrentUrl());
 	}
 
 }
