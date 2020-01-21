@@ -7,8 +7,6 @@ import org.testng.annotations.Test;
 
 public class Selenium {
 
-	WebDriver driver;
-
 	@Test
 	public void test1() {
 		System.out.println("azure pipeline1");
@@ -20,10 +18,10 @@ public class Selenium {
 		System.out.println("azure pipeline2");
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 
-		driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 
 		driver.get("http://www.google.com");
-		driver.close();
+		driver.quit();
 	}
 
 	@Test
@@ -31,7 +29,7 @@ public class Selenium {
 		System.out.println("azure pipeline3");
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 
-		driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 
 		driver.get("http://www.google.com");
 		driver.close();
