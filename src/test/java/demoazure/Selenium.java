@@ -11,13 +11,24 @@ public class Selenium {
 
 	@Test
 	public void test1() {
-		System.out.println("azure pipeline");
+		System.out.println("azure pipeline1");
 		Assert.assertEquals(true, true);
 	}
 
 	@Test
 	public void test2() {
-		System.out.println("azure pipeline1");
+		System.out.println("azure pipeline2");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+
+		driver = new ChromeDriver();
+
+		driver.get("http://www.google.com");
+		driver.close();
+	}
+
+	@Test
+	public void test3() {
+		System.out.println("azure pipeline3");
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 
 		driver = new ChromeDriver();
